@@ -217,19 +217,10 @@ service firebase.storage {
 }
 ```
 
-FUNCIONAMIENTO EN CELULAR
+PARA PROBAR EN WEB
+- npm i cordova
+- ionic cordova platform add browser
+- ionic cordova run browser
 
-La aplicación inicia con la pantalla de inicio de sesión que contiene dos inputs para el email y la contraseña, en caso de no tener un usuario previamente creado, existe la opción de registrar un usuario.
 
-El registro de usuario solicita ingresar el email y la contraseña una vez finalizada se da a registrar y aparece un mensaje de que el usuario ha sido registrado con éxito y que por favor iniciemos sesión.
-
-Al iniciar sesión con el usuario se desplegará la pantalla del chat con los mensajes correspondientes y el nombre de usuario que los mando junto a la fecha, un input para escribir el mensaje un botón para enviarlo y otro para desplegar las opciones de la cámara.
-
-Las opciones que se despliegan son la cámara, seleccionar una imagen y cancelar. Una vez se toma la imagen esta se almacena en el storage de firebase y se muestra la url en el input, la cual debemos dar en enviar para que se almacene en la base de datos y se muuestre como un mensaje en el chat.
-
-Para generar la apk y probarla se utiliza ```ionic cordova build android```
-
-La apk se encuentra en el siguiente link https://drive.google.com/drive/folders/1KQZP1rxLrQn12gWwJjxtZZdPoRK0E6NL?usp=sharing
-
-Vídeo explicativo https://youtu.be/yT3TgGt15YM
 
