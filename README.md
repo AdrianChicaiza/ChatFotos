@@ -1,5 +1,12 @@
 # Chat en Ionic con autenticación en Firebase.
 
+## Prerequisitos
+Se deben instalar las siguientes librerias en el directorio del proyecto:
+- ```npm install @ionic-native/camera```
+- ```npm install @angular/fire```
+- ```npm install @ionic/angular```
+- ```npm install crypto-js```
+
 COMPONENTES.
 
 - Página de Registro.
@@ -100,11 +107,10 @@ service firebase.storage {
 }
 ```
 
-POR ULTIMO PARA PROBAR EN WEB:
-```
-- npm i cordova
-- ionic cordova platform add browser
-- ionic cordova run browser
-```
+## POR ULTIMO PARA PROBAR EN WEB:
+- ```npm i cordova```
+- ```ionic cordova platform add browser```
+- ```ionic cordova run browser```
+
 
 
